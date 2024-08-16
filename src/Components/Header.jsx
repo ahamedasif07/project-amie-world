@@ -1,9 +1,9 @@
-import naruto from '../../src/assets/images/home-page-img1.jpg'
-import onepiece from '../../src/assets/images/home-page-img2.jpg'
-import demonSlayer from '../../src/assets/images/home-img3.jpg'
-import aot from '../../src/assets/images/home-img4.jpg'
-import dragonball from '../../src/assets/images/home-img5.jpg'
-import bletch from '../../src/assets/images/home-img6.jpg'
+import naruto from '../../src/assets/icons/image.png'
+import onepiece from '../../src/assets/icons/image (2).png'
+import demonSlayer from '../../src/assets/icons/image (3).png'
+import aot from '../../src/assets/icons/image (4).png'
+import dragonball from '../../src/assets/icons/image (1).png'
+import bletch from '../../src/assets/icons/image (5).png'
 import homeBaner from '../../src/assets/images/homeBaner.jpg'
 
 
@@ -21,11 +21,11 @@ const Header = () => {
             <img className='sm:h-96  transition md:h-[600px]  bg-cover mx-auto bg-no-repeat container ' src={homeBaner} alt="" />
            </div>
            <div>
-           <marquee  behavior="scroll" direction="left">
+           <marquee className=' '  behavior="scroll" direction="left">
           <div className='flex gap-24 mt-2'> 
           <img className="mr-10 w-20 h-20" src={naruto} alt=""  />
           <img className="mr-10 w-20 h-20" src={onepiece} alt="" />
-          <img className="mr-10 w-20 h-20" src={dragonball} alt="" />
+          <img className="mr-10 w-20 h-20 " src={dragonball} alt="" />
           <img className="mr-10 w-20 h-20" src={aot} alt="" />
           <img className="mr-10 w-20 h-20" src={bletch} alt="" />
           <img className="mr-10 w-20 h-20" src={demonSlayer} alt="" />
