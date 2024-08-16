@@ -12,5 +12,10 @@ export default {
   ],
   daisyui: {
     themes: ["light", "dark", "cupcake"],
-  },
+  }, keyframes: {
+    marquee: {
+      '0%': { transform: 'translateX(100%)' },
+      '100%': { transform: 'translateX(-100%)' },
+    },
+  }
 }

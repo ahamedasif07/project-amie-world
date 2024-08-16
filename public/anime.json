@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "name": "Naruto",
+      "episodes": 220,
+      "title": "Naruto",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/naruto.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Attack on Titan",
+      "episodes": 87,
+      "title": "Shingeki no Kyojin",
+      "categories": "Action, Thriller",
+      "image": "https://example.com/attack-on-titan.jpg"
+    },
+    {
+      "id": 3,
+      "name": "One Piece",
+      "episodes": 1071,
+      "title": "One Piece",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/one-piece.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Death Note",
+      "episodes": 37,
+      "title": "Death Note",
+      "categories": "Thriller",
+      "image": "https://example.com/death-note.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "episodes": 64,
+      "title": "Hagane no Renkinjutsushi",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/fullmetal-alchemist.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Dragon Ball Z",
+      "episodes": 291,
+      "title": "Dragon Ball Z",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/dragon-ball-z.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sword Art Online",
+      "episodes": 96,
+      "title": "Sword Art Online",
+      "categories": "Action, Adventure, Thriller",
+      "image": "https://example.com/sword-art-online.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Hunter x Hunter",
+      "episodes": 148,
+      "title": "Hunter x Hunter",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/hunter-x-hunter.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Tokyo Ghoul",
+      "episodes": 48,
+      "title": "Tokyo Ghoul",
+      "categories": "Action, Thriller",
+      "image": "https://example.com/tokyo-ghoul.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Bleach",
+      "episodes": 366,
+      "title": "Bleach",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/bleach.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Naruto Shippuden",
+      "episodes": 500,
+      "title": "Naruto Shippuden",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/naruto-shippuden.jpg"
+    },
+    {
+      "id": 12,
+      "name": "My Hero Academia",
+      "episodes": 138,
+      "title": "Boku no Hero Academia",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/my-hero-academia.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Fairy Tail",
+      "episodes": 328,
+      "title": "Fairy Tail",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/fairy-tail.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Demon Slayer",
+      "episodes": 55,
+      "title": "Kimetsu no Yaiba",
+      "categories": "Action, Adventure, Thriller",
+      "image": "https://example.com/demon-slayer.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Steins;Gate",
+      "episodes": 24,
+      "title": "Steins;Gate",
+      "categories": "Thriller",
+      "image": "https://example.com/steins-gate.jpg"
+    },
+    {
+      "id": 16,
+      "name": "JoJo's Bizarre Adventure",
+      "episodes": 190,
+      "title": "JoJo no Kimyou na Bouken",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/jojos-bizarre-adventure.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Parasyte: The Maxim",
+      "episodes": 24,
+      "title": "Kiseijuu: Sei no Kakuritsu",
+      "categories": "Action, Thriller",
+      "image": "https://example.com/parasyte.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Akame ga Kill!",
+      "episodes": 24,
+      "title": "Akame ga Kill!",
+      "categories": "Action, Thriller",
+      "image": "https://example.com/akame-ga-kill.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Samurai Champloo",
+      "episodes": 26,
+      "title": "Samurai Champloo",
+      "categories": "Action, Adventure",
+      "image": "https://example.com/samurai-champloo.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Psycho-Pass",
+      "episodes": 41,
+      "title": "Psycho-Pass",
+      "categories": "Action, Thriller",
+      "image": "https://example.com/psycho-pass.jpg"
+    }
+  ]
+  

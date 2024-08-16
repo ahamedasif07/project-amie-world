@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
-import Home from "./Pages/Home/Home";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 
 const LayOut = () => {
@@ -12,6 +12,8 @@ const LayOut = () => {
             <div className="container mx-auto">
             <Outlet></Outlet>
             </div>
+
+            <Footer></Footer>
             
             
         </div>

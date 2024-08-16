@@ -24,7 +24,10 @@ const NavBar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <NavLink to='/' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : 'border border-b-2 border-red-500'} >Home</NavLink>
+       <NavLink to='/' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'>Home</li></NavLink>
+       <NavLink to='/anime' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'>Amine Series</li></NavLink>
+       <NavLink to='/movies' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'> Movies</li></NavLink>
+   
         
       </ul>
     </div>
@@ -32,15 +35,19 @@ const NavBar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <NavLink to='/' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : 'border border-b-2 border-red-500'} > <li className='px-1 mx-1'>Home</li></NavLink>
+   
+ <div className='flex flex-row gap-4 items-center'>
+ <NavLink to='/' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'>Home</li></NavLink>
+   
 
 
-    <NavLink to='/animeSeries' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ""} > 
-<li className='px-4'>Amine Series</li>
+   <NavLink to='/anime' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ""} > 
+<li className='font-bold'>Amine Series</li>
 </NavLink>
 
 
-    <NavLink to='/movies' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : 'border border-b-2 border-red-500'} > <li className='px-1 grid justify-center'>Movies</li></NavLink>
+   <NavLink to='/movies' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'>Movies</li></NavLink>
+ </div>
       
     </ul>
   </div>
