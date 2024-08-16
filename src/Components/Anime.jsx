@@ -1,11 +1,15 @@
 
 import PropTypes from 'prop-types';
+
 const Anime = ({anime}) => {
+
+    
+
     const {image,name,language}=anime;
     return (
         <div className=''>
-                        <div className="mt-4 hover:scale-105 translate-x-3 transition-transform max-h-[500px] rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
-	<img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
+                        <div className="mt-4 hover:scale-105  transition-transform max-h-[500px] rounded-md shadow-md dark:bg-gray-100 hover:bg-gradient-to-r from-cyan-500 to-blue-500 dark:text-gray-800">
+	<img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-green-500" />
 	<div className="flex flex-col justify-between p-6 space-y-8">
 		<div className="space-y-2 flex justify-between">
 			<h2 className="text-xl font-semibold tracking-wide">{name}</h2>
