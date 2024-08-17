@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "The Powerpuff Girls",
+        "duration": 22,
+        "title": "The Powerpuff Girls",
+        "categories": "Action",
+        "image": "https://i.ibb.co/DY9RW0Z/c5f108d087c5f5de85e3d581777a43ad.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 2,
+        "name": "Dexter's Laboratory",
+        "duration": 22,
+        "title": "Dexter's Laboratory",
+        "categories": "Comedy",
+        "image": "https://i.ibb.co/Prbx6ZC/comm-dexter-s-laboratory-david-feiss-style-by-eezyseven-df1bnmk-375w.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 3,
+        "name": "Ed, Edd n Eddy",
+        "duration": 22,
+        "title": "Ed, Edd n Eddy",
+        "categories": "Comedy",
+        "image": "https://i.ibb.co/F8jF3tF/1e7b56300565292eaba339c30d8cd280.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 4,
+        "name": "Johnny Bravo",
+        "duration": 22,
+        "title": "Johnny Bravo",
+        "categories": "Comedy",
+        "image": "https://i.ibb.co/nRwjhwY/HD-wallpaper-johnny-bravo-cartoon-character.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 5,
+        "name": "Teen Titans",
+        "duration": 22,
+        "title": "Teen Titans",
+        "categories": "Action",
+        "image": "https://i.ibb.co/sPGnf32/Episode-37-of-season-6-of-Teen-Titans-Go-Plex-iphone-12-pro-max.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 6,
+        "name": "Ben 10",
+        "duration": 22,
+        "title": "Ben 10",
+        "categories": "Action",
+        "image": "hhttps://i.ibb.co/CzDJdNp/ben-10-art-poster-kl00tuj7gblkfzya.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 7,
+        "name": "Adventure Time",
+        "duration": 11,
+        "title": "Adventure Time",
+        "categories": "Adventure",
+        "image": "https://i.ibb.co/KwzqCXR/logan-carroll-untitled-artwork-22.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 8,
+        "name": "Regular Show",
+        "duration": 11,
+        "title": "Regular Show",
+        "categories": "Comedy",
+        "image": "https://i.ibb.co/gdMQsN7/mordecai-and-rigby-regular-show-poster-iud9qsphek09mmu6.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 9,
+        "name": "The Amazing World of Gumball",
+        "duration": 11,
+        "title": "The Amazing World of Gumball",
+        "categories": "Comedy",
+        "image": "https://i.ibb.co/RN36mk3/the-amazing-world-of-gumball-720-x-1280-wallpaper-wcqfr2z0kmstkglf.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 10,
+        "name": "Samurai Jack",
+        "duration": 22,
+        "title": "Samurai Jack",
+        "categories": "Action",
+        "image": "https://i.ibb.co/TrkSFTL/p481593-b-v13-al.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 11,
+        "name": "Chhota Bheem",
+        "duration": 30,
+        "title": "Chhota Bheem",
+        "categories": "Adventure",
+        "image": "https://i.ibb.co/NrmPwQP/HD-wallpaper-chota-bheem-team-chota-bheem-cartoon-animation.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 12,
+        "name": "Foster's Home for Imaginary Friends",
+        "duration": 22,
+        "title": "Foster's Home for Imaginary Friends",
+        "categories": "Comedy",
+        "image": "https://i.ibb.co/pZd01Xq/MV5-BYTg2-ZTdk-OGYt-MGEy-Zi00-YWEw-LWI5-ODIt-Yj-Fk-ODI2-MTZl-OWYz-Xk-Ey-Xk-Fqc-Gde-QXVy-MTA0-MTM5-Nj.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 13,
+        "name": "Doraemon",
+        "duration": 22,
+        "title": "Doraemon",
+        "categories": "Adventure",
+        "image": "https://i.ibb.co/0MYCbzG/HD-wallpaper-doraemon-movie-nobita-and-the-island-of-miracles-anime.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 14,
+        "name": "Tom and Jerry",
+        "duration": 22,
+        "title": "Tom and Jerry",
+        "categories": "Comedy",
+        "image": "https://i.ibb.co/mRXY11R/thumb-506521.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 15,
+        "name": "Powerpuff Girls Z",
+        "duration": 22,
+        "title": "Powerpuff Girls Z",
+        "categories": "Action",
+        "image": "https://i.ibb.co/2hSB13k/46036-2-large.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 16,
+        "name": "Megas XLR",
+        "duration": 22,
+        "title": "Megas XLR",
+        "categories": "Action",
+        "image": "https://i.ibb.co/XtWkMNH/zk3dt-Lr-Lgb-IHTGTm-Ar-JPVEf-Rw-VG.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 17,
+        "name": "Ben 10: Alien Force",
+        "duration": 22,
+        "title": "Ben 10: Alien Force",
+        "categories": "Action",
+        "image": "https://i.ibb.co/hVBLmG3/HD-wallpaper-ben-10-alien-force-ben-games-cartoon-network.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 18,
+        "name": "Ben 10: Omniverse",
+        "duration": 22,
+        "title": "Ben 10: Omniverse",
+        "categories": "Action",
+        "image": "https://i.ibb.co/xzzjkcK/efae6f65646b494dc0da37921d5dbda8.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 19,
+        "name": "DuckTales (2017)",
+        "duration": 22,
+        "title": "DuckTales (2017)",
+        "categories": "Adventure",
+        "image": "https://i.ibb.co/vXywWgw/desktop-wallpaper-ducktales-poster-ducktales-2017.jpg",
+        "language": ["ENG"]
+    },
+    {
+        "id": 20,
+        "name": "Infinity Train",
+        "duration": 11,
+        "title": "Infinity Train",
+        "categories": "Adventure",
+        "image": "https://i.ibb.co/z7ffbcv/93aca8a65e5eaa4c3c22261b57896fc5.jpg",
+        "language": ["ENG"]
+    }
+]

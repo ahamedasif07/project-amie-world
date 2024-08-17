@@ -10,6 +10,7 @@ const Movies = () => {
     // console.log(movies)
     const [allMovies,SetAllMovies]=useState(6)
     const [filtaredMovies,setFiltaredMovies]=useState([]);
+    // const [filtaredMoviesByName,setFiltaredMoviesByName]=useState([]);
     console.log(filtaredMovies)
         //   setFiltaredMovies(newAllmovies)
 
@@ -25,12 +26,17 @@ const Movies = () => {
 
     // scarch section
     const handleScarch = () => {
-        const inputValue = document.getElementById("input").value;
+        const input = document.getElementById("input")
+        const inputValue = input.value;
         const value = inputValue.toLowerCase()
         console.log(value)
         const filtered = movies.filter(movie => movie.categories.toLowerCase() === value)
-        
+        // const filteredByName = movies.filter(movie => movie.name === value)
+        // console.log(filteredByName)
         setFiltaredMovies(filtered)
+        input.value = '';
+
+       
     }
 
     return (

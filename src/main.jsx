@@ -11,12 +11,13 @@ import './index.css';
 import Animes from './Pages/Animes.jsx';
 import Movies from './Pages/Movies.jsx';
 import Error from './Pages/Error.jsx';
+import Cartoons from './Pages/Cartoons.jsx';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <LayOut></LayOut>,
-        // errorElement : <Error></Error>,
+        errorElement : <Error></Error>,
         children: [
             {
                 path :'/', 
@@ -31,6 +32,12 @@ const router = createBrowserRouter([
                 path :'/movies',
                 loader : ()=> fetch('movie.json'),
                 element : <Movies></Movies>
+            },
+            {
+                path :'/cartoons',
+                loader : () => fetch('cartoon.json'),
+                element : <Cartoons></Cartoons>
+
             }
         ],
     },
