@@ -54,7 +54,7 @@ const Header = () => {
       <a href="#slide1" className="btn btn-circle">❯</a>
     </div>
   </div>
-</div>
+          </div>
            <div>
            <marquee className=' '  behavior="scroll" direction="left">
           <div className='flex gap-24 mt-2'> 
@@ -65,12 +65,12 @@ const Header = () => {
           <img className="mr-10 w-20 h-20" src={bletch} alt="" />
           <img className="mr-10 w-20 h-20" src={demonSlayer} alt="" />
           </div>
-</marquee>
+          </marquee>
           
            </div>
            <div>
            <h2 className='text-4xl  text-black-600 font-bold text-center px-4 pt-10'>Wellcome to anime World</h2>
-            <p className='text-gray-600 text-center pb-6 px-4 pt-4'>Welcome to Anime World! Dive into a world of captivating stories and <br /> unforgettable characters, where every genre comes alive and every fan finds their place.</p>
+            <p className='text-gray-600 text-center pb-6 px-4 pt-4'>  Here is a professional overview of some world-famous anime <br /> characters along with their notable lines</p>
            
            </div>
         
