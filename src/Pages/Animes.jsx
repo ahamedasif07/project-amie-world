@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router";
 import Anime from "../Components/Anime";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Animes = () => {
     const animes = useLoaderData();
@@ -8,21 +8,30 @@ const Animes = () => {
     // const [filteredAnime, setFilteredAnime] = useState();
     // console.log(filteredAnime)
     const [allAnime, setAllAnime] = useState(6);
+    const [filtaredAnimes,setFiltaredAnimes]=useState([])
 
     const handleShowAll = () => {
         // setFilteredAnime(animes.slice(0, allAnime + 6));
         setAllAnime(allAnime + 6);
     };
 
-    // const handleSearch = () => {
-    //     const inputValue = document.getElementById('input').value.trim().toLowerCase();
-    //     const filtered = animes.filter(anime => 
-    //         anime.categories.toLowerCase() === inputValue
-    //     );
-    //     setFilteredAnime(filtered.slice(0, allAnime));
-    //     document.getElementById('input').value = '';
-        
-    // };
+    useEffect(()=>{
+        setFiltaredAnimes(animes)
+    },[animes])
+
+    const handleScarch = () => {
+        const input = document.getElementById("input")
+        const inputValue = input.value;
+        const value = inputValue.toLowerCase()
+        console.log(value)
+        const filtered = animes.filter(anime => anime.categories.toLowerCase() === value || anime.name.toLowerCase() === value)
+        // const filteredByName = movies.filter(movie => movie.name === value)
+        // console.log(filteredByName)
+        setFiltaredAnimes(filtered)
+        input.value = '';
+
+       
+    }
 
     return (
         <div className="pt-20 px-3 max-w-screen-2xl ">
@@ -42,13 +51,14 @@ const Animes = () => {
                     placeholder="Search" 
                     className="input input-bordered w-full max-w-xs" 
                 />
-                <button  className="bg-gray-100 px-4 py-1 border-2 rounded-full">
+                <button onClick={handleScarch} className="bg-gray-100 px-4 py-1 border-2 rounded-full">
                     Search
                 </button>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center py-4 px-3 sm:grid-cols-1 mx-auto rounded-sm lg:gap-14 md:gap-8">
-                {animes.map(anime => (
+                {
+                filtaredAnimes.map(anime => (
                     <Anime anime={anime} key={anime.id} />
                 ))}
             </div>
