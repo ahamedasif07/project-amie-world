@@ -27,6 +27,7 @@ const NavBar = () => {
        <NavLink to='/' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'>Home</li></NavLink>
        <NavLink to='/anime' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'>Amine Series</li></NavLink>
        <NavLink to='/movies' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'> Movies</li></NavLink>
+       <NavLink to='/cartoons' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'> Cartoons</li></NavLink>
    
         
       </ul>
@@ -47,6 +48,7 @@ const NavBar = () => {
 
 
    <NavLink to='/movies' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'>Movies</li></NavLink>
+   <NavLink to='/cartoons' className={({isActive})=>isActive ? 'bg-green-500 p-2 rounded-md text-white' : ''} > <li className='font-bold'> Cartoons</li></NavLink>
  </div>
       
     </ul>

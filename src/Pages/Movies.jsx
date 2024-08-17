@@ -41,7 +41,7 @@ const Movies = () => {
 
     return (
         <div>
-            <h2>movies</h2>
+            
             <div>
             <div className="pt-20 px-3 max-w-screen-2xl ">
             <h2 className="text-4xl font-bold mx-auto text-center mt-6 mb-3 border-b-2 border-white">
@@ -80,9 +80,7 @@ const Movies = () => {
             </div>
         </div>
             </div>
-           <div>
            
-           </div>
         </div>
     );
 };
