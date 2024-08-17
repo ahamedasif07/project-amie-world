@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Your Name",
+        "duration": 106,
+        "title": "Your Name",
+        "categories": "Romance",
+        "image": "https://i.ibb.co/zfYCzy4/xNPlWgd.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 2,
+        "name": "Spirited Away",
+        "duration": 125,
+        "title": "Spirited Away",
+        "categories": "Fantasy",
+        "image": "https://i.ibb.co/tzxh2S5/unnamed.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 3,
+        "name": "Akira",
+        "duration": 124,
+        "title": "Akira",
+        "categories": "Sci-Fi",
+        "image": "https://i.ibb.co/ZLQDKnK/akira-2952x4077-anime-akira-hd-art-wallpaper-preview.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 4,
+        "name": "My Neighbor Totoro",
+        "duration": 86,
+        "title": "My Neighbor Totoro",
+        "categories": "Family",
+        "image": "https://i.ibb.co/64r6f1F/4-TAa-Av-JUYUodr-Gbic03-Wqu-KLAb8.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 5,
+        "name": "Princess Mononoke",
+        "duration": 134,
+        "title": "Princess Mononoke",
+        "categories": "Fantasy",
+        "image": "https://i.ibb.co/SwGcKtm/princess-mononoke-studio-ghibli-k5rgqxp6lt9pne5p.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 6,
+        "name": "Grave of the Fireflies",
+        "duration": 89,
+        "title": "Grave of the Fireflies",
+        "categories": "Drama",
+        "image": "https://i.ibb.co/b7bPjr8/fs9rv-MCDCq-ZMr6-AGciak-P0-Ds7og.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 7,
+        "name": "Ghost in the Shell",
+        "duration": 82,
+        "title": "Ghost in the Shell",
+        "categories": "Action",
+        "image": "https://i.ibb.co/3zMsrBc/tumblr-n9c3rc55-Bp1qbluruo2-r1-1280.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 8,
+        "name": "The Wind Rises",
+        "duration": 126,
+        "title": "The Wind Rises",
+        "categories": "Drama",
+        "image": "https://i.ibb.co/stYPyZz/91i-G4-Gy-CJk-L.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 9,
+        "name": "Howl's Moving Castle",
+        "duration": 119,
+        "title": "Howl's Moving Castle",
+        "categories": "Fantasy",
+        "image": "https://i.ibb.co/yngYRy6/97e33bf28f54f43f718dd549525fbdbf.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 10,
+        "name": "The Girl Who Leapt Through Time",
+        "duration": 98,
+        "title": "The Girl Who Leapt Through Time",
+        "categories": "Sci-Fi",
+        "image": "https://i.ibb.co/wStvRMd/the-girl-who-leapt-through-time-1400-x-2100-wallpaper-uew0xouijwaz52sl.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 11,
+        "name": "Paprika",
+        "duration": 90,
+        "title": "Paprika",
+        "categories": "Thriller",
+        "image": "https://i.ibb.co/K6fgmP1/p14436224-p-v8-aa.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 12,
+        "name": "Kiki's Delivery Service",
+        "duration": 103,
+        "title": "Kiki's Delivery Service",
+        "categories": "Family",
+        "image": "https://i.ibb.co/TtMznZY/74d912286bf7e6a8135ba94f49178d6c.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 13,
+        "name": "A Silent Voice",
+        "duration": 130,
+        "title": "A Silent Voice",
+        "categories": "Drama",
+        "image": "https://i.ibb.co/ypvxVdC/a-silent-voice.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 14,
+        "name": "5 Centimeters Per Second",
+        "duration": 63,
+        "title": "5 Centimeters Per Second",
+        "categories": "Romance",
+        "image": "https://i.ibb.co/tHZN5wM/5-centimeters-per-second-anime-makoto-shinkai-wallpaper-preview.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 15,
+        "name": "Weathering with You",
+        "duration": 112,
+        "title": "Weathering with You",
+        "categories": "Fantasy",
+        "image": "https://i.ibb.co/rw0vS8t/c27c3ba8-ceb0-44e8-b3fe-d7817a139d30.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 16,
+        "name": "Castle in the Sky",
+        "duration": 125,
+        "title": "Castle in the Sky",
+        "categories": "Adventure",
+        "image": "https://i.ibb.co/YbfpKXN/Castle-in-the-Sky-Vintage-Movie-Poster-Original-Japanese-1-panel-20x29-8302.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 17,
+        "name": "Perfect Blue",
+        "duration": 81,
+        "title": "Perfect Blue",
+        "categories": "Thriller",
+        "image": "https://i.ibb.co/RQHcBj8/anime-perfect-blue-hd-wallpaper-preview.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 18,
+        "name": "The Tale of the Princess Kaguya",
+        "duration": 137,
+        "title": "The Tale of the Princess Kaguya",
+        "categories": "Drama",
+        "image": "https://i.ibb.co/nCg9QjH/the-tale-of-the-princess-kaguya-900-x-1324-wallpaper-2ncb3i9jlgobo2k1.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 19,
+        "name": "Redline",
+        "duration": 102,
+        "title": "Redline",
+        "categories": "Action",
+        "image": "https://i.ibb.co/nm8SckK/redline-1058-x-1500-wallpaper-fegue31vtjmoinfb.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    },
+    {
+        "id": 20,
+        "name": "The Secret World of Arrietty",
+        "duration": 94,
+        "title": "The Secret World of Arrietty",
+        "categories": "Adventure",
+        "image": "https://i.ibb.co/zJ55SqS/the-secret-world-of-arrietty-acem57q45y8ihxv7.jpg",
+        "language": ["ORG", "SUB", "DUB"]
+    }
+]

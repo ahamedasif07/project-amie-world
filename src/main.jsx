@@ -7,13 +7,16 @@ import {
 import Home from './Pages/Home/Home.jsx';
 import LayOut from './LayOut.jsx';
 import './index.css';
-import Anime from './Pages/Animes.jsx';
+
 import Animes from './Pages/Animes.jsx';
+import Movies from './Pages/Movies.jsx';
+import Error from './Pages/Error.jsx';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <LayOut></LayOut>,
+        errorElement : <Error></Error>,
         children: [
             {
                 path :'/', 
@@ -23,6 +26,11 @@ const router = createBrowserRouter([
                 path : '/anime',
                 loader : ()=> fetch('anime.json'),
                 element : <Animes></Animes>
+            },
+            {
+                path :'/movies',
+                loader : ()=> fetch('movie.json'),
+                element : <Movies></Movies>
             }
         ],
     },
