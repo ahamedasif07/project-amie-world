@@ -28,8 +28,9 @@ const Cartoons = () => {
         const value = inputValue.toLowerCase()
         // console.log(value)
 
-        const scarchCartoon = cartoons.filter(cartoon => cartoon.categories.toLowerCase()===value)
+        const scarchCartoon = cartoons.filter(cartoon => cartoon.categories.toLowerCase()===value || cartoon.name.toLowerCase()==value)
         setFiltaredCartoons(scarchCartoon)
+        input.value=''
         
     }
 
