@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Movie = ({movie}) => {
 
-    const {image,language}=movie;
+    const {image,language,name}=movie;
 
    
 
@@ -27,7 +27,7 @@ const Movie = ({movie}) => {
     );
 };
 
-Movie.propType = {
+Movie.propTypes = {
     movie:PropTypes.object.isRequired
 }
 export default Movie;
