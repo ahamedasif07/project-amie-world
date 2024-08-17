@@ -30,7 +30,7 @@ const Movies = () => {
         const inputValue = input.value;
         const value = inputValue.toLowerCase()
         console.log(value)
-        const filtered = movies.filter(movie => movie.categories.toLowerCase() === value)
+        const filtered = movies.filter(movie => movie.categories.toLowerCase() === value || movie.name.toLowerCase() === value)
         // const filteredByName = movies.filter(movie => movie.name === value)
         // console.log(filteredByName)
         setFiltaredMovies(filtered)
@@ -45,7 +45,7 @@ const Movies = () => {
             <div>
             <div className="pt-20 px-3 max-w-screen-2xl ">
             <h2 className="text-4xl font-bold mx-auto text-center mt-6 mb-3 border-b-2 border-white">
-                Watch Your Favorite Movies
+                Watch <span className="text-red-600">Your</span><br /> Favorite Movie'<span className="text-red-600">s</span>
             </h2>
             <p className="text-center text-gray-900 pb-12">
                 Experience something extraordinary and make the most of your time by watching anime.

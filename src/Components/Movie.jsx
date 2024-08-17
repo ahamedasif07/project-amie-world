@@ -20,7 +20,7 @@ const Movie = ({movie}) => {
                 }
             </div>
 		</div>
-		<button  type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50"> <a href="">Watch Now</a></button>
+		<button  type="button" className="flex hover:bg-green-600 item-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50"> <a href="">Watch Now</a></button>
 	</div>
     </div>
         </div>

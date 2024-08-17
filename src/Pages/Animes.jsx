@@ -27,7 +27,7 @@ const Animes = () => {
     return (
         <div className="pt-20 px-3 max-w-screen-2xl ">
             <h2 className="text-4xl font-bold mx-auto text-center mt-6 mb-3 border-b-2 border-white">
-                Watch Your Favorite Anime
+                Watch <span className="text-red-600">Your <br /> Favorite</span> Anime
             </h2>
             <p className="text-center text-gray-900 pb-12">
                 Experience something extraordinary and make the most of your time by watching anime.
