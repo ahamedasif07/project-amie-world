@@ -4,7 +4,10 @@ import demonSlayer from '../../src/assets/icons/image (3).png'
 import aot from '../../src/assets/icons/image (4).png'
 import dragonball from '../../src/assets/icons/image (1).png'
 import bletch from '../../src/assets/icons/image (5).png'
-import homeBaner from '../../src/assets/images/homeBaner.jpg'
+import slaiderFour from '../../src/assets/images/slider4.jpg'
+import sliderOne from '../../src/assets/images/slider1 (2).jpg'
+import sliderTwo from '../../src/assets/images/baner4.jpg'
+import sliderThree from '../../src/assets/images/slider3.jpg'
 
 
 
@@ -14,12 +17,44 @@ const Header = () => {
     return (
        
         <header className='pt-8'>
-           <div>
-
-        
-
-            <img className='sm:h-96  transition md:h-[600px]  bg-cover mx-auto bg-no-repeat container ' src={homeBaner} alt="" />
-           </div>
+          <div className="carousel  max-h-[600px] w-full">
+  <div id="slide1" className="carousel-item relative w-full">
+    <img
+      src={sliderOne}
+      className="w-full" />
+    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide4" className="btn btn-circle">❮</a>
+      <a href="#slide2" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide2" className="carousel-item relative w-full">
+    <img
+      src={sliderTwo}
+      className="w-full" />
+    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide1" className="btn btn-circle">❮</a>
+      <a href="#slide3" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide3" className="carousel-item relative w-full">
+    <img
+      src={sliderThree}
+      className="w-full" />
+    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide2" className="btn btn-circle">❮</a>
+      <a href="#slide4" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide4" className="carousel-item relative w-full">
+    <img
+      src={slaiderFour}
+      className="w-full" />
+    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide3" className="btn btn-circle">❮</a>
+      <a href="#slide1" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
            <div>
            <marquee className=' '  behavior="scroll" direction="left">
           <div className='flex gap-24 mt-2'> 
