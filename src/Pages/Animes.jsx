@@ -58,7 +58,7 @@ const Animes = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center py-4 px-3 sm:grid-cols-1 mx-auto rounded-sm lg:gap-14 md:gap-8">
                 {
-                filtaredAnimes.map(anime => (
+                filtaredAnimes.slice(0,allAnime).map(anime => (
                     <Anime anime={anime} key={anime.id} />
                 ))}
             </div>
