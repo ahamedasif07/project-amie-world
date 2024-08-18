@@ -1,28 +1,44 @@
-// import { StrictMode } from 'react';
-// import { createRoot } from 'react-dom/client';
-// import {
-//     createBrowserRouter,
-//     RouterProvider,
-// } from 'react-router-dom';
-// import Home from './Pages/Home.jsx';
-// import LayOut from './LayOut.jsx';
-// import './index.css';
 
-// const router = createBrowserRouter([
-//     {
-//         path: '/',
-//         element: <LayOut></LayOut>,
-//         children: [
-//             {
-//                 index: true, // This sets Home as the default child route for "/"
-//                 element: <Home />,
-//             },
-//         ],
-//     },
-// ]);
+import {
+    createBrowserRouter,
+    
+} from 'react-router-dom';
+import Home from './Pages/Home/Home.jsx';
+import LayOut from './LayOut.jsx';
+import './index.css';
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <RouterProvider router={router}></RouterProvider>
-//   </StrictMode>,
-// );
+import Animes from './Pages/Animes.jsx';
+import Movies from './Pages/Movies.jsx';
+import Error from './Pages/Error.jsx';
+import Cartoons from './Pages/Cartoons.jsx';
+
+export const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <LayOut></LayOut>,
+        errorElement : <Error></Error>,
+        children: [
+            {
+                path :'/', 
+                element: <Home />,
+            },
+            {
+                path : '/anime',
+                loader : ()=> fetch('anime.json'),
+                element : <Animes></Animes>
+            },
+            {
+                path :'/movies',
+                loader : ()=> fetch('movie.json'),
+                element : <Movies></Movies>
+            },
+            {
+                path :'/cartoons',
+                loader : () => fetch('cartoon.json'),
+                element : <Cartoons></Cartoons>
+
+            }
+        ],
+    },
+]);
+
