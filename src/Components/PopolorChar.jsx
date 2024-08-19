@@ -6,7 +6,7 @@ import zoro from '../assets/images/zoro.png'
 const PopolorChar = () => {
     return (
         <div>
-            <div className='md:flex  py-5  gap-24 justify-center items-center max-w-3xl mx-auto'>
+            <div className='flex lg:flex-row  flex-col-reverse  py-5  gap-24 justify-center items-center max-w-3xl mx-auto'>
                 <div className='px-4 text-left'>
                     <h2 className='font-bold text-2xl py-2 '>Monkey D. Luffy</h2>
                     <li className='text-gray-700 pt-2'>I don't want to conquer anything. I just think the guy with the most freedom in this whole ocean… is the Pirate King!</li>
@@ -18,8 +18,8 @@ const PopolorChar = () => {
                 </div>
             </div>
 
-              {/* naruto start */}
-              <div className='md:flex py-5   gap-24 justify-center  items-center max-w-3xl mx-auto'>
+            {/* naruto start */}
+            <div className='md:flex py-5   gap-24 justify-center  items-center max-w-3xl mx-auto'>
                 <div className=''>
                     <img className='max-w-[300px] mx-auto pt-3' src={naruto} alt="" />
                 </div>
@@ -33,7 +33,7 @@ const PopolorChar = () => {
 
             {/* itachi start */}
 
-            <div className='md:flex py-5   gap-24 justify-center items-center max-w-3xl mx-auto'>
+            <div className='flex py-5 lg:flex-row flex-col-reverse  gap-24 justify-center items-center max-w-3xl mx-auto'>
                 <div className='px-4 text-left'>
                     <h2 className='font-bold text-2xl py-2 '>Itachi Uchiha</h2>
                     <li className='text-gray-700 pt-2'>Those who cannot acknowledge themselves will eventually fail.</li>

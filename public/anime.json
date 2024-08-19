@@ -1,182 +1,182 @@
 [
-    {
-        "id": 1,
-        "name": "Naruto",
-        "episodes": 220,
-        "title": "Naruto",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/pWRVQ0n/63527edf3492081cbd062a28-hislooks-naruto-poster-anime-wall-art.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 2,
-        "name": "Attack on Titan",
-        "episodes": 87,
-        "title": "Shingeki no Kyojin",
-        "categories": "Action, Thriller",
-        "image": "https://i.ibb.co/qCrJVFd/81l-Nsz7-Ox1-S-SY606.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 3,
-        "name": "One Piece",
-        "episodes": 1071,
-        "title": "One Piece",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/rHrzDss/633ff1157e3fbc25557517c8-one-piece-poster-japanese-anime-posters.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 4,
-        "name": "Death Note",
-        "episodes": 37,
-        "title": "Death Note",
-        "categories": "Thriller",
-        "image": "https://i.ibb.co/KFx6G5P/71-Ivz5-Ay-Ug-L-AC-SY679.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 5,
-        "name": "Fullmetal Alchemist: Brotherhood",
-        "episodes": 64,
-        "title": "Hagane no Renkinjutsushi",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/NFhfrNN/fantastic-full-metal-alchemist-poster-and-awesome-ideas-of-fullmetal-alchemist-brotherhood-768x1095.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 6,
-        "name": "Dragon Ball Z",
-        "episodes": 291,
-        "title": "Dragon Ball Z",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/zRgXgnF/dd22cc21b59621c17794428984c8946f.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 7,
-        "name": "Sword Art Online",
-        "episodes": 96,
-        "title": "Sword Art Online",
-        "categories": "Action, Adventure, Thriller",
-        "image": "https://i.ibb.co/HP5phY8/HD-wallpaper-sao-poster-sword-art-online.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 8,
-        "name": "Hunter x Hunter",
-        "episodes": 148,
-        "title": "Hunter x Hunter",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/J29Chcs/s-l400.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 9,
-        "name": "Tokyo Ghoul",
-        "episodes": 48,
-        "title": "Tokyo Ghoul",
-        "categories": "Action, Thriller",
-        "image": "https://i.ibb.co/8P4XGJV/wp9880719.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 10,
-        "name": "Bleach",
-        "episodes": 366,
-        "title": "Bleach",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/NVJQXfH/HD-wallpaper-bleach-thousand-year-blood-war-key-visual-r-anime.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 11,
-        "name": "Naruto Shippuden",
-        "episodes": 500,
-        "title": "Naruto Shippuden",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/KXGq9bP/poster-naruto-shippuden-by-mardarkangel1992mgp-dab0b2w-fullview.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 12,
-        "name": "My Hero Academia",
-        "episodes": 138,
-        "title": "Boku no Hero Academia",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/89Rdxby/DP3364myheroacademiateaser-42712-42411.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 13,
-        "name": "Fairy Tail",
-        "episodes": 328,
-        "title": "Fairy Tail",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/nQpHKtk/HD-wallpaper-fairytail-1-adventure-dragnir-dragon-fairy-tail-magie-natsu.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 14,
-        "name": "Demon Slayer",
-        "episodes": 55,
-        "title": "Kimetsu no Yaiba",
-        "categories": "Action, Adventure, Thriller",
-        "image": "https://i.ibb.co/xfWm3dT/wallpapersden-com-demon-slayer-1668x2388.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 15,
-        "name": "Steins;Gate",
-        "episodes": 24,
-        "title": "Steins;Gate",
-        "categories": "Thriller",
-        "image": "https://i.ibb.co/HgLykkC/7577bd0a1fbcbbb92c38c1293fd5e320.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 16,
-        "name": "JoJo's Bizarre Adventure",
-        "episodes": 190,
-        "title": "JoJo no Kimyou na Bouken",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/KxkZ4zK/716k-Dt-Ghy9-L-AC-UF894-1000-QL80.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 17,
-        "name": "Parasyte: The Maxim",
-        "episodes": 24,
-        "title": "Kiseijuu: Sei no Kakuritsu",
-        "categories": "Action, Thriller",
-        "image": "https://i.ibb.co/9sHNprf/c-XBfj-ZSd-Jelu2r0w-KD7q-Cx-S71kb.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 18,
-        "name": "Akame ga Kill!",
-        "episodes": 24,
-        "title": "Akame ga Kill!",
-        "categories": "Action, Thriller",
-        "image": "https://i.ibb.co/RN3zzPJ/71r-GOu-BSp-L-AC-SL1001.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 19,
-        "name": "Samurai Champloo",
-        "episodes": 26,
-        "title": "Samurai Champloo",
-        "categories": "Action, Adventure",
-        "image": "https://i.ibb.co/z8mGSBY/HD-wallpaper-samurai-champloo-anime.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    },
-    {
-        "id": 20,
-        "name": "Psycho-Pass",
-        "episodes": 41,
-        "title": "Psycho-Pass",
-        "categories": "Action, Thriller",
-        "image": "https://i.ibb.co/DbZ3vxG/f-TSs5t0rh-Uf-Zql-Hv86-Heyzr-Tp-RL.jpg",
-        "language": ["ORG", "SUB", "DUB"]
-    }
+  {
+    "id": 1,
+    "name": "Naruto",
+    "episodes": 220,
+    "title": "Naruto",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/pWRVQ0n/63527edf3492081cbd062a28-hislooks-naruto-poster-anime-wall-art.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 2,
+    "name": "Attack on Titan",
+    "episodes": 87,
+    "title": "Shingeki no Kyojin",
+    "categories": "Action, Thriller",
+    "image": "https://i.ibb.co/qCrJVFd/81l-Nsz7-Ox1-S-SY606.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 3,
+    "name": "One Piece",
+    "episodes": 1071,
+    "title": "One Piece",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/rHrzDss/633ff1157e3fbc25557517c8-one-piece-poster-japanese-anime-posters.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 4,
+    "name": "Death Note",
+    "episodes": 37,
+    "title": "Death Note",
+    "categories": "Thriller",
+    "image": "https://i.ibb.co/KFx6G5P/71-Ivz5-Ay-Ug-L-AC-SY679.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 5,
+    "name": "Fullmetal Alchemist: Brotherhood",
+    "episodes": 64,
+    "title": "Hagane no Renkinjutsushi",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/NFhfrNN/fantastic-full-metal-alchemist-poster-and-awesome-ideas-of-fullmetal-alchemist-brotherhood-768x1095.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 6,
+    "name": "Dragon Ball Z",
+    "episodes": 291,
+    "title": "Dragon Ball Z",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/zRgXgnF/dd22cc21b59621c17794428984c8946f.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 7,
+    "name": "Sword Art Online",
+    "episodes": 96,
+    "title": "Sword Art Online",
+    "categories": "Action, Adventure, Thriller",
+    "image": "https://i.ibb.co/HP5phY8/HD-wallpaper-sao-poster-sword-art-online.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 8,
+    "name": "Hunter x Hunter",
+    "episodes": 148,
+    "title": "Hunter x Hunter",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/J29Chcs/s-l400.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 9,
+    "name": "Tokyo Ghoul",
+    "episodes": 48,
+    "title": "Tokyo Ghoul",
+    "categories": "Action, Thriller",
+    "image": "https://i.ibb.co/8P4XGJV/wp9880719.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 10,
+    "name": "Bleach",
+    "episodes": 366,
+    "title": "Bleach",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/NVJQXfH/HD-wallpaper-bleach-thousand-year-blood-war-key-visual-r-anime.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 11,
+    "name": "Naruto Shippuden",
+    "episodes": 500,
+    "title": "Naruto Shippuden",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/KXGq9bP/poster-naruto-shippuden-by-mardarkangel1992mgp-dab0b2w-fullview.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 12,
+    "name": "My Hero Academia",
+    "episodes": 138,
+    "title": "Boku no Hero Academia",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/89Rdxby/DP3364myheroacademiateaser-42712-42411.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 13,
+    "name": "Fairy Tail",
+    "episodes": 328,
+    "title": "Fairy Tail",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/nQpHKtk/HD-wallpaper-fairytail-1-adventure-dragnir-dragon-fairy-tail-magie-natsu.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 14,
+    "name": "Demon Slayer",
+    "episodes": 55,
+    "title": "Kimetsu no Yaiba",
+    "categories": "Action, Adventure, Thriller",
+    "image": "https://i.ibb.co/xfWm3dT/wallpapersden-com-demon-slayer-1668x2388.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 15,
+    "name": "Steins;Gate",
+    "episodes": 24,
+    "title": "Steins;Gate",
+    "categories": "Thriller",
+    "image": "https://i.ibb.co/HgLykkC/7577bd0a1fbcbbb92c38c1293fd5e320.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 16,
+    "name": "JoJo's Bizarre Adventure",
+    "episodes": 190,
+    "title": "JoJo no Kimyou na Bouken",
+    "categories": "Action, Adventure",
+    "image": "https://i.ibb.co/KxkZ4zK/716k-Dt-Ghy9-L-AC-UF894-1000-QL80.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 17,
+    "name": "Parasyte: The Maxim",
+    "episodes": 24,
+    "title": "Kiseijuu: Sei no Kakuritsu",
+    "categories": "Action, Thriller",
+    "image": "https://i.ibb.co/9sHNprf/c-XBfj-ZSd-Jelu2r0w-KD7q-Cx-S71kb.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 18,
+    "name": "Akame ga Kill!",
+    "episodes": 24,
+    "title": "Akame ga Kill!",
+    "categories": "Action, Thriller",
+    "image": "https://i.ibb.co/RN3zzPJ/71r-GOu-BSp-L-AC-SL1001.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 19,
+    "name": "Samurai Champloo",
+    "episodes": 26,
+    "title": "Samurai ,Champloo",
+    "categories": "Action Adventure",
+    "image": "https://i.ibb.co/z8mGSBY/HD-wallpaper-samurai-champloo-anime.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  },
+  {
+    "id": 20,
+    "name": "Psycho-Pass",
+    "episodes": 41,
+    "title": "Psycho-Pass",
+    "categories": "Action Thriller",
+    "image": "https://i.ibb.co/DbZ3vxG/f-TSs5t0rh-Uf-Zql-Hv86-Heyzr-Tp-RL.jpg",
+    "language": ["ORG", "SUB", "DUB"]
+  }
 ]
