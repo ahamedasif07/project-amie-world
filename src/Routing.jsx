@@ -8,6 +8,8 @@ import Movies from "./Pages/Movies.jsx";
 import Error from "./Pages/Error.jsx";
 import Cartoons from "./Pages/Cartoons.jsx";
 import AnimeDetailCard from "./Components/AnimeDetailCard.jsx";
+import MoviesDetails from "./Components/MoviesDetails.jsx";
+import CarttonDetails from "./Components/CarttonDetails.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -38,6 +40,14 @@ export const router = createBrowserRouter([
         path: "/details/:id",
         loader: () => fetch("anime.json"),
         element: <AnimeDetailCard></AnimeDetailCard>,
+      },
+      {
+        path: "/moviedetails/:id",
+        element: <MoviesDetails></MoviesDetails>,
+      },
+      {
+        path: "/carttondetails/:id",
+        element: <CarttonDetails></CarttonDetails>,
       },
     ],
   },

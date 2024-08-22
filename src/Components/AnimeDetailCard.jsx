@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
-import Anime from "./Anime";
 import Animes from "../Pages/Animes";
+import { Link } from "react-router-dom";
 
 const AnimeDetailCard = () => {
   const { id } = useParams();
@@ -51,9 +51,11 @@ const AnimeDetailCard = () => {
             <h2 className="font-semibold py-2 tect-xl">
               Catagories : {animeDetails?.categories}
             </h2>
-            <button className=" py-2 rounded-sm bg-green-500 text-white px-3">
-              Watch Now
-            </button>
+            <Link to="/">
+              <button className=" py-2 rounded-sm bg-green-500 text-white px-3">
+                Go Home
+              </button>
+            </Link>
           </div>
         </div>
       </div>
